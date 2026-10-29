@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbital Studies — nine geometric prints</title>
+<meta name="description" content="Orbital Studies: a series of nine minimal geometric prints. Digital editions, delivered in high resolution.">
+<style>
+  :root {
+    --navy: #0d1b2a;
+    --cream: #f2e8d5;
+    --terra: #c1663f;
+    --muted: #8a97a8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--navy); color: var(--cream); }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; line-height: 1.55; }
+  a { color: var(--cream); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  header { padding: 72px 0 40px; border-bottom: 1px solid rgba(242,232,213,.15); }
+  .kicker { color: var(--terra); letter-spacing: .28em; text-transform: uppercase; font-size: 12px; margin: 0 0 18px; }
+  h1 { font-size: clamp(34px, 6vw, 64px); line-height: 1.02; font-weight: 600; margin: 0 0 18px; letter-spacing: -.02em; }
+  .lede { color: var(--muted); max-width: 56ch; font-size: 17px; margin: 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 28px 24px; padding: 48px 0 24px; }
+  figure { margin: 0; }
+  figure img { width: 100%; display: block; border-radius: 2px; }
+  figcaption { padding-top: 12px; }
+  .title { font-size: 15px; letter-spacing: .04em; display: block; }
+  .price { color: var(--terra); font-size: 13px; display: block; margin-top: 2px; }
+  .note { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .buy { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; padding: 56px 0; border-top: 1px solid rgba(242,232,213,.15); margin-top: 48px; }
+  .buy h2 { font-size: 26px; margin: 0 0 16px; font-weight: 600; }
+  .buy p { color: var(--muted); margin: 0 0 14px; }
+  .buy ol { color: var(--muted); padding-left: 20px; margin: 0; }
+  .buy li { margin-bottom: 10px; }
+  .addr { font-family: ui-monospace, Menlo, monospace; font-size: 13px; word-break: break-all; background: rgba(242,232,213,.06); padding: 10px 12px; border-left: 3px solid var(--terra); margin: 8px 0 18px; }
+  .qr { background: var(--cream); padding: 12px; width: 180px; height: 180px; border-radius: 2px; }
+  .qr img { width: 100%; height: 100%; display: block; }
+  .legal { border-top: 1px solid rgba(242,232,213,.15); padding: 32px 0 72px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 760px) { .buy { grid-template-columns: 1fr; } .qr { width: 150px; height: 150px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Series 01</p>
+    <h1>Orbital<br>Studies</h1>
+    <p class="lede">Nine minimal geometric prints: moon phases, orbits, eclipses, horizons. Drawn as vectors, rendered at 2000 × 3000 px, printed at any size without loss. Personal-use digital license.</p>
+  </header>
+
+  <main class="grid">
+    <figure><img src="art/phases.jpg" alt="Phases"><figcaption><span class="title">Phases</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/orbit.jpg" alt="Orbit"><figcaption><span class="title">Orbit</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/eclipse.jpg" alt="Eclipse"><figcaption><span class="title">Eclipse</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/horizon.jpg" alt="Horizon"><figcaption><span class="title">Horizon</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/transit.jpg" alt="Transit"><figcaption><span class="title">Transit</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/tide.jpg" alt="Tide"><figcaption><span class="title">Tide</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/solstice.jpg" alt="Solstice"><figcaption><span class="title">Solstice</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/axis.jpg" alt="Axis"><figcaption><span class="title">Axis</span><span class="price">$9</span></figcaption></figure>
+    <figure><img src="art/meridian.jpg" alt="Meridian"><figcaption><span class="title">Meridian</span><span class="price">$9</span></figcaption></figure>
+  </main>
+
+  <section class="buy">
+    <div>
+      <h2>Buy — USDC on Base</h2>
+      <p>Each print is $9. The full set of nine is $45. Payment goes directly to the wallet below; no account, no middleman.</p>
+      <p class="addr">0x7D7cBF76B214b22b6DA508Ad03c215511A038439</p>
+      <ol>
+        <li>Send USDC on Base (or ETH on Base) to the address above.</li>
+        <li>Email the transaction hash to <a href="mailto:peaceinourtime15@gmail.com?subject=Orbital%20Studies%20order">peaceinourtime15@gmail.com</a> with the titles you want.</li>
+        <li>You receive the 2000 × 3000 PNG files and the vector SVG sources by reply, usually within a day.</li>
+      </ol>
+    </div>
+    <div>
+      <div class="qr"><img src="wallet-qr.svg" alt="Wallet QR code"></div>
+      <p class="note">QR encodes the receiving address. Verify the first and last four characters before sending.</p>
+    </div>
+  </section>
+
+  <footer class="legal">
+    <p>Personal-use license: print and display for yourself or as a gift. No resale, redistribution or NFT re-minting without written permission. All works generated from original code by the artist; no third-party imagery used.</p>
+    <p>Prices in USD, settled in crypto. Sales are final; the files are digital. Nothing here is financial advice.</p>
+  </footer>
+</div>
+</body>
+</html>
